@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Путешествие по Арканам | Гипнотическая практика — Прохор Руднев</title>
+    <meta name="description" content="Гипнотическое путешествие по картам Таро. Вы закроете глаза — и окажетесь внутри аркана. Не гадание. Не терапия. Опыт, который вы проживёте сами. 1 час. 1000 ₽.">
+    <meta name="keywords" content="таро, гипноз, эриксоновский гипноз, путешествие по арканам, Прохор Руднев, практика, медитация, арканы, транс">
+    <meta name="author" content="Прохор Руднев">
+
+        <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FF44CC'/%3E%3Cstop offset='1' stop-color='%23FFB347'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230B0A0F'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='url(%23g)' stroke-width='3'/%3E%3Cpath d='M32 15 L32 49 M15 32 L49 32 M20 20 L44 44 M44 20 L20 44' stroke='url(%23g)' stroke-width='2' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='url(%23g)'/%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0B0A0F">
+    <meta name="msapplication-TileColor" content="#0B0A0F">
+
+    <link rel="canonical" href="https://provoke.expert/arkany">
+
+    <meta property="og:title" content="Путешествие по Арканам — гипнотическая практика">
+    <meta property="og:description" content="Вы закроете глаза — и окажетесь внутри карты. Не гадание. Опыт, который вы проживёте сами.">
+    <meta property="og:image" content="me-photo.jpg">
+    <meta property="og:url" content="https://provoke.expert/arkany">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0B0A0F;
+            font-family: 'Space Grotesk', sans-serif;
+            color: #EAEAEF;
+            line-height: 1.4;
+            scroll-behavior: smooth;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at 20% 30%, rgba(255, 68, 204, 0.08), transparent 60%),
+                        radial-gradient(circle at 80% 70%, rgba(255, 179, 71, 0.06), transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+        .section { padding: 70px 0; border-bottom: 1px solid rgba(255, 68, 204, 0.2); }
+        .section:last-child { border-bottom: none; }
+        h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; }
+        h2 {
+            font-size: 2.6rem;
+            margin-bottom: 2rem;
+            display: inline-block;
+            background: linear-gradient(135deg, #FF44CC, #FFB347);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            border-left: 6px solid #FF44CC;
+            padding-left: 20px;
+        }
+        .neon-glow { text-shadow: 0 0 6px #ff44cc, 0 0 12px #ff44aa; color: #FF44CC; }
+        .badge {
+            display: inline-block;
+            background: #ff44cc20;
+            border: 1px solid #ff44cc;
+            border-radius: 100px;
+            padding: 6px 16px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #FF44CC;
+            border: none;
+            color: #0B0A0F;
+            font-weight: bold;
+            padding: 16px 36px;
+            border-radius: 60px;
+            font-size: 1.15rem;
+            cursor: pointer;
+            transition: 0.2s ease;
+            text-decoration: none;
+            font-family: inherit;
+            box-shadow: 0 0 12px #ff44cc80;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn::after {
+            content: "";
+            position: absolute;
+            top: 0; left: -120%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: 0.5s;
+        }
+        .btn:hover::after { left: 120%; }
+        .btn:hover { transform: scale(0.97); background: #ff66dd; box-shadow: 0 0 20px #ff66dd; }
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #FF44CC;
+            color: #FF44CC;
+            box-shadow: none;
+        }
+        .btn-outline:hover { background: #FF44CC; color: #0B0A0F; box-shadow: 0 0 18px #ff44cc; transform: scale(0.98); }
+
+        /* HERO */
+        .hero { padding: 90px 0 60px; }
+        .hero h1 { font-size: 4.2rem; line-height: 1.05; margin-bottom: 24px; }
+        .hero .sub {
+            font-size: 1.4rem;
+            font-weight: 600;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(10px);
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 40px;
+            margin: 20px 0 16px;
+            border-left: 4px solid #ff44cc;
+            border-right: 2px solid #ffaa33;
+        }
+        .hero p { font-size: 1.25rem; max-width: 680px; margin: 24px 0 32px; }
+
+        /* БОЛЬ */
+        .pain-list { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+        .pain-item {
+            background: #13101A;
+            padding: 20px 26px;
+            border-radius: 50px;
+            border-left: 8px solid #FF44CC;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .pain-item i { color: #FF44CC; margin-right: 10px; }
+
+        /* ИНТРИГА */
+        .intrigue-box {
+            background: linear-gradient(125deg, #0f0c14, #1a1525);
+            border-radius: 48px;
+            padding: 48px 40px;
+            border: 1px solid #ff44cc40;
+            margin-top: 24px;
+            text-align: center;
+        }
+        .intrigue-box p { font-size: 1.3rem; max-width: 720px; margin: 0 auto 20px; }
+        .intrigue-box .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #FFB347;
+            margin-top: 24px;
+        }
+
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; margin-top: 30px; }
+        .card {
+            background: #13101A;
+            border-radius: 28px;
+            padding: 28px 24px;
+            border: 1px solid #2a2533;
+            transition: 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+        .card:hover { transform: translateY(-6px); border-color: #ff44cc; box-shadow: 0 18px 30px -12px #ff44cc40; }
+        .card-icon { font-size: 2rem; margin-bottom: 14px; color: #FF44CC; }
+        .card h3 { font-size: 1.2rem; margin-bottom: 10px; }
+        .card p { font-size: 0.98rem; line-height: 1.45; color: #d0cbe0; }
+
+        /* МАРШРУТ */
+        .route { display: flex; flex-direction: column; gap: 16px; margin-top: 28px; }
+        .route-step {
+            display: flex; gap: 18px; align-items: flex-start;
+            background: #13101A; border-radius: 24px; padding: 22px 26px;
+            border-left: 6px solid #FFB347;
+        }
+        .route-step .arcana {
+            font-size: 1.5rem; font-weight: 800; color: #FF44CC; min-width: 42px;
+        }
+        .route-step p { font-size: 1.05rem; color: #d0cbe0; }
+        .route-step strong { color: #EAEAEF; }
+
+        .price-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            background: #0F0C14;
+            border-radius: 48px;
+            padding: 36px 32px;
+            border: 1px solid #ff44cc40;
+            margin: 20px 0;
+        }
+        .price-card { flex: 1; text-align: center; min-width: 140px; }
+        .price-number { font-size: 2.6rem; font-weight: 800; color: #FF44CC; }
+        .price-card p { font-size: 0.95rem; color: #bfb9d4; margin-top: 6px; }
+
+        .contact-block {
+            background: linear-gradient(125deg, #0f0c14, #1a1525);
+            border-radius: 48px;
+            padding: 48px 32px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .faq { display: flex; flex-direction: column; gap: 14px; margin-top: 24px; }
+        .faq-item {
+            background: #13101A; border-radius: 24px; padding: 20px 26px;
+            border: 1px solid #2a2533;
+        }
+        .faq-item h3 { font-size: 1.1rem; margin-bottom: 8px; color: #FFB347; }
+        .faq-item p { font-size: 0.98rem; color: #d0cbe0; }
+
+        footer { padding: 40px 0; text-align: center; font-size: 0.8rem; color: #aaa; border-top: 1px solid #2a2533; }
+
+        @media (max-width: 800px) {
+            .hero h1 { font-size: 2.8rem; }
+            h2 { font-size: 2rem; }
+            .section { padding: 50px 0; }
+            .route-step { flex-direction: column; gap: 8px; }
+        }
+        a { text-decoration: none; }
+        i.fa, i.far, i.fas { margin-right: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="badge"><i class="fas fa-moon"></i> Одна встреча · 1 час · 1000 ₽</div>
+        <h1>Путешествие<br><span class="neon-glow">по Арканам</span></h1>
+        <div class="sub"><i class="fas fa-eye"></i> Вы закроете глаза — и окажетесь внутри карты</div>
+        <p>Не гадание. Не разговор о чувствах. Гипнотическая практика, где вы проходите через арканы Таро как через комнаты: видите, слышите, чувствуете. И выходите с ответом, который не могли получить прежде.</p>
+        
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 32px;">
+            <a href="#format" class="btn"><i class="fas fa-ticket"></i> Войти в путешествие · 1000 ₽</a>
+            <a href="#what" class="btn-outline btn"><i class="fas fa-search"></i> Что будет</a>
+        </div>
+    </div>
+
+    <!-- БОЛЬ / ЗАПРОС -->
+    <div class="section">
+        <h2><i class="fas fa-fire"></i> Знакомо?</h2>
+        <div class="pain-list">
+            <div class="pain-item"><i class="fas fa-check"></i> «Я хожу по кругу но не могу сдвинуться»</div>
+            <div class="pain-item"><i class="fas fa-check"></i> «Понимаю головой — но переживаю внутри»</div>
+
+            <div class="pain-item"><i class="fas fa-check"></i> «Медитации не заходят: мысли скачут, тело не слушается»</div>
+            <div class="pain-item"><i class="fas fa-check"></i> «Хочу увидеть свой запрос яркими образами»</div>
+        </div>
+        <p style="font-size: 1.15rem; margin-top: 28px; color: #bfb9d4;">Это не про «я не умею расслабляться». Это про <span class="neon-glow">то, что внутри уже есть ответ</span> — но к нему нужен вход. Аркан — и есть вход.</p>
+    </div>
+
+    <!-- ИНТРИГА -->
+    <div class="section" id="what">
+        <h2><i class="fas fa-eye"></i> Что будет</h2>
+        <div class="intrigue-box">
+            <p>Я не буду рассказывать, что означает ваш аркан. Я не буду вас «чинить» и не буду утешать.</p>
+            <p>Я проведу вас через несколько карт — так, будто вы стоите внутри них. С закрытыми глазами. Вы увидите сцену, услышите звуки, почувствуете тело. И сами ответите на вопросы, которые обычно остаются без ответа.</p>
+            <p>Вы не  будете «смотреть на карту». Вы окажетесь <strong>внутри карты</strong>.</p>
+            <div class="quote">«Аркан — это не предсказание. Это дверь. Я просто держу её открытой»</div>
+        </div>
+    </div>
+
+    <!-- ЧТО УНЕСЁТЕ -->
+    <div class="section">
+        <h2><i class="fas fa-gift"></i> Что вы унесёте</h2>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-image"></i></div>
+                <h3>Образ</h3>
+                <p>Свой. Не из книги значений. Тот, который всплывёт изнутри и останется с вами.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-location-dot"></i></div>
+                <h3>Точку</h3>
+                <p>Где вы сейчас: в страхе, в движении или уже на пороге.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-shoe-prints"></i></div>
+                <h3>Шаг</h3>
+                <p>Один. На этой неделе. Назовёте вслух — и это уже начнётся.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-anchor"></i></div>
+                <h3>Якорь</h3>
+                <p>Телесный. Рука на груди, тепло, «я рядом». С ним можно вернуться в любой момент.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ДЛЯ КОГО / НЕ ДЛЯ КОГО -->
+    <div class="section">
+        <h2><i class="fas fa-users"></i> Кому подойдёт</h2>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-check" style="color:#7CFC9A"></i></div>
+                <h3>Тем, кто застрял</h3>
+                <p>Много думает, всё понимает — а сдвинуться не может.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-check" style="color:#7CFC9A"></i></div>
+                <h3>Тем, кто любит Таро</h3>
+                <p>Раскладывает, но хочет зайти глубже — внутрь аркана, а не в значение.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-check" style="color:#7CFC9A"></i></div>
+                <h3>Тем, кому не заходят медитации</h3>
+                <p>Мысли скачут, тело не слушается. Здесь — не нужно «правильно медитировать».</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ФОРМАТ -->
+    <div class="section" id="format">
+        <h2><i class="fas fa-clock"></i> Формат и цена</h2>
+        <div class="price-box">
+            <div class="price-card">
+                <div class="price-number">1</div>
+                <p>час</p>
+            </div>
+            <div class="price-card">
+                <div class="price-number">1</div>
+                <p>встреча</p>
+            </div>
+            <div class="price-card">
+                <div class="price-number"><i class="fas fa-users"></i></div>
+                <p>индивидуально</p>
+            </div>
+            <div class="price-card">
+                <div class="price-number">1000</div>
+                <p>рублей</p>
+            </div>
+        </div>
+        <p style="font-size: 1rem; color: #bfb9d4; margin-top: 10px;"><i class="fas fa-shield-alt"></i> Онлайн. Нужны наушники, тихое место и готовность закрыть глаза.</p>
+        <p style="font-size: 1rem; color: #bfb9d4; margin-top: 10px;"><i class="fas fa-info-circle"></i> Цена символическая — чтобы пришли те, кто действительно хочет, а не «просто посмотреть».</p>
+        <div style="margin-top: 24px;">
+            <a href="#contact" class="btn"><i class="fas fa-ticket"></i> Войти в путешествие · 1000 ₽</a>
+        </div>
+    </div>
+
+    <!-- ВЕДУЩИЙ -->
+    <div class="section">
+        <h2><i class="fas fa-user-tie"></i> Ведущий</h2>
+        <p style="font-size: 1.15rem; margin-bottom: 16px;"><strong>Прохор Руднев</strong> — провокативный психолог, семейный и гипнотерапевт.</p>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+            <div class="pain-item" style="border-left-color: #FFB347;"><i class="fas fa-chalkboard-user"></i> Провёл множество потоков практики по провокативной терапии</div>
+            <div class="pain-item" style="border-left-color: #FFB347;"><i class="fas fa-certificate"></i> Работает в методе Фарелли</div>
+            <div class="pain-item" style="border-left-color: #FFB347;"><i class="fas fa-microphone-alt"></i> Спикер международной конференции по парадоксальной и провокативной психотерапии (2026)</div>
+            <div class="pain-item" style="border-left-color: #FFB347;"><i class="fas fa-moon"></i> Ведёт гипнотические сессии в традиции Милтона Эриксона</div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="section">
+        <h2><i class="fas fa-question-circle"></i> Частые вопросы</h2>
+        <div class="faq">
+            <div class="faq-item">
+                <h3>Это гадание?</h3>
+                <p>Нет. Мы не предсказываем будущее. Карты — каркас для гипнотического путешествия. Вы работаете со своим запросом, а не с «судьбой».</p>
+            </div>
+            <div class="faq-item">
+                <h3>Я не умею визуализировать</h3>
+                <p>И не нужно. Кто-то видит образы, кто-то чувствует телом, кто-то слышит. Всё — рабочий канал. Мы идём через тот, который у вас открыт.</p>
+            </div>
+            <div class="faq-item">
+                <h3>А если я «не поддамся» гипнозу?</h3>
+                <p>Гипноз — это не сон и не потеря контроля. Вы всё слышите и помните. Просто внимание становится мягче. Это получается у всех, кто закрыл глаза и согласился.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Это безопасно?</h3>
+                <p>Да. Вы всегда можете сказать «стоп» — и я верну вас. Мы не идём в травму, мы идём через образы. Темп держите вы.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Почему 1000 ₽?</h3>
+                <p>Символическая цена. Она отсекает случайных и оставляет тех, кто готов работать. И делает вход лёгким.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- КОНТАКТ -->
+    <div class="section" id="contact">
+        <h2><i class="fas fa-envelope"></i> Занять место</h2>
+        <div class="contact-block">
+            <p style="font-size: 1.3rem; margin-bottom: 16px;">Мест в малой группе — немного. Напишите, чтобы забронировать.</p>
+            <p style="font-size: 1rem; color: #bfb9d4; margin-bottom: 24px;">В ответ пришлю ссылку на оплату и все детали.</p>
+            <a href="https://t.me/provoke_expert" class="btn" target="_blank" rel="noopener"><i class="fab fa-telegram-plane"></i> Написать в Telegram</a>
+            <p style="font-size: 0.9rem; color: #aaa; margin-top: 24px;"><i class="fas fa-lock"></i> Конфиденциально. Без спама.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© Прохор Руднев — провокативная психотерапия, гипнотерапия, семейная терапия. Аркан — дверь. Шаг — за вами.</p>
+    </footer>
+</div>
+
+</body>
+</html>
